@@ -270,7 +270,23 @@ a.sl-btn-one:hover span {
 }
 
 .footer__social a:hover svg {
-    fill: #ED2D44 !important; /* Rojo de tu marca */
+    fill: #ffffff !important; /* Blanco en hover */
+}
+
+/* Centrar elementos del footer en móvil */
+@media (max-width: 767px) {
+    .footer__bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+    
+    .footer__logo,
+    .footer__copyright,
+    .footer__social {
+        justify-content: center;
+        margin: 0 auto !important;
+    }
 }
 		</style>
 		<style id="kirki-inline-styles"></style></head>
