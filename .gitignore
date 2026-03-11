@@ -27,7 +27,7 @@ sample-page/
 pagiana-componetes/
 appilo_template/
 appilo_megamenu/
-2022/
+# 2022/ comentado para permitir wp-content/uploads/2022/
 # 2025/ comentado para permitir wp-content/uploads/2025/
 home-onepage/
 
