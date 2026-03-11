@@ -1,0 +1,39 @@
+# Archivos de backup
+*.backup
+
+# Scripts temporales de PowerShell
+fix-*.ps1
+test-access.ps1
+fix-simple.ps1
+fix-and-upload.ps1
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Páginas que no se usan (no son la landing page)
+blog/
+cart/
+checkout/
+shop/
+my-account/
+author/
+category/
+sample-page/
+pagiana-componetes/
+appilo_template/
+appilo_megamenu/
+2022/
+2025/
+home-onepage/
+
+# Plugins que no se usan en el sitio estático
+wp-content/plugins/all-in-one-wp-migration/
+wp-content/plugins/one-click-demo-import/
+wp-content/plugins/wp-domain-checker/
+wp-content/plugins/mulitsite-nav/
+wp-content/plugins/simply-static/
