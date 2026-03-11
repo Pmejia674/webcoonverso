@@ -273,19 +273,21 @@ a.sl-btn-one:hover span {
     fill: #ffffff !important; /* Blanco en hover */
 }
 
-/* Centrar elementos del footer en móvil */
+/* Centrar logo y redes sociales en móvil */
 @media (max-width: 767px) {
     .footer__bottom {
-        flex-direction: column;
-        text-align: center;
-        gap: 15px;
+        padding-top: 1px;
     }
     
-    .footer__logo,
-    .footer__copyright,
-    .footer__social {
+    .footer__logo {
+        width: 100%;
+        text-align: center;
         justify-content: center;
-        margin: 0 auto !important;
+    }
+    
+    .footer__social {
+        width: 100%;
+        justify-content: center;
     }
 }
 		</style>
